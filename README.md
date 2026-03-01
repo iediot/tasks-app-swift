@@ -10,7 +10,7 @@ A clean and minimal iOS task manager built with SwiftUI.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PlatformiOS-blue">
+  <img src="https://img.shields.io/badge/iOS-blue">
   <img src="https://img.shields.io/badge/Swift-orange">
   <img src="https://img.shields.io/badge/SwiftUI-green">
 </p>
