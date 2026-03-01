@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1024" height="1024" alt="tasksapp" src="https://github.com/user-attachments/assets/e4f93074-9017-40b0-97d1-e3e76d8ada3b" />
+  <img width="144" height="144" alt="tasksapp" src="https://github.com/user-attachments/assets/e4f93074-9017-40b0-97d1-e3e76d8ada3b" />
 
 </p>
 
