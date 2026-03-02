@@ -13,6 +13,7 @@ struct ContentView: View {
     @Query private var tasks: [Task]
     @Environment(\.modelContext) private var modelContext
     @State private var newTaskTitle: String = ""
+    @FocusState private var isTextFieldFocused: Bool
     var body: some View {
         VStack {
             Text("Tasks App")
@@ -22,6 +23,7 @@ struct ContentView: View {
             
             HStack {
                 TextField("New Task", text: $newTaskTitle)
+                    .focused($isTextFieldFocused)
                     .padding(10)
                     .background(.ultraThinMaterial)
                     .cornerRadius(12)
@@ -39,6 +41,9 @@ struct ContentView: View {
                 .disabled(newTaskTitle.isEmpty)
             }
             .padding(.bottom)
+            .onTapGesture {
+                isTextFieldFocused = false
+            }
             
             // List of tasks
             List {
@@ -55,6 +60,7 @@ struct ContentView: View {
                 }
                 .onDelete(perform: deleteTask)
             }
+            .scrollDismissesKeyboard(.interactively)
             .listStyle(.plain)
             .background(.ultraThinMaterial)
             .cornerRadius(20)
@@ -67,6 +73,7 @@ struct ContentView: View {
         let newTask = Task(title: newTaskTitle)
         modelContext.insert(newTask) // save it to the database
         newTaskTitle = ""
+        isTextFieldFocused = false
     }
     
     private func toggleTask(_ task: Task) {
