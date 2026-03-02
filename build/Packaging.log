@@ -1,127 +1,127 @@
-2026-03-01 23:59:47 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x839ce8900; archive(resolved)="<IDEArchive: 0x839c33480>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team(resolved)="<IDEProvisioningBasicTeam: 0x839de80a0; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
+2026-03-02 00:02:25 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x99bd14900; archive(resolved)="<IDEArchive: 0x99bc2b480>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team(resolved)="<IDEProvisioningBasicTeam: 0x99bdec120; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
 	Chain (14, self inclusive):
-	<IDEDistributionProcessingPipelineContext: 0x839ce8900; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="<IDEProvisioningBasicTeam: 0x839de80a0; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
-	<IDEDistributionProcessingPipelineContext: 0x839ce8600; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="<IDEProvisioningBasicTeam: 0x839de80a0; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
-	<IDEDistributionContext: 0x837eb2300; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="<IDEProvisioningBasicTeam: 0x839de80a0; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
-	<IDEDistributionContext: 0x837eb1400; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="<IDEProvisioningBasicTeam: 0x839de80a0; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
-	<IDEDistributionContext: 0x837eb1180; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="<IDEProvisioningBasicTeam: 0x839de80a0; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
-	<IDEDistributionContext: 0x837eb0f00; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="<IDEProvisioningBasicTeam: 0x839de80a0; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
-	<IDEDistributionContext: 0x837eb0c80; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="<IDEProvisioningBasicTeam: 0x839de80a0; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
-	<IDEDistributionContext: 0x837eb0a00; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="<IDEProvisioningBasicTeam: 0x839de80a0; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
-	<IDEDistributionContext: 0x837eb0780; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="<IDEProvisioningBasicTeam: 0x839de80a0; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
-	<IDEDistributionContext: 0x837eb0500; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="(null)">
-	<IDEDistributionContext: 0x837eb0280; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="(null)">
-	<IDEDistributionContext: 0x837eb0000; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="(null)">
-	<IDEDistributionContext: 0x1030e5b00; archive = "<IDEArchive: 0x839c33480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x839dcc010>", team="(null)">
-	<IDEDistributionContext: 0x1030b65d0; archive = "<IDEArchive: 0x839c33480>", distributionMethod="(null)", team="(null)">
-</IDEDistributionProcessingPipelineContext: 0x839ce8900>
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionCopyItemStep
-2026-03-01 23:59:47 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app' '/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~7wGh6k/Root/Payload/Tasks.app'
-2026-03-01 23:59:47 +0000  >>> Copying /Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app 
-2026-03-01 23:59:47 +0000  copying file ./_CodeSignature/CodeResources ... 
-2026-03-01 23:59:47 +0000  2775 bytes for ./_CodeSignature/CodeResources
-2026-03-01 23:59:47 +0000  copying file ./Tasks ... 
-2026-03-01 23:59:47 +0000  147344 bytes for ./Tasks
-2026-03-01 23:59:47 +0000  copying file ./AppIcon60x60@2x.png ... 
-2026-03-01 23:59:47 +0000  2907 bytes for ./AppIcon60x60@2x.png
-2026-03-01 23:59:47 +0000  copying file ./Assets.car ... 
-2026-03-01 23:59:47 +0000  243448 bytes for ./Assets.car
-2026-03-01 23:59:47 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
-2026-03-01 23:59:47 +0000  3596 bytes for ./AppIcon76x76@2x~ipad.png
-2026-03-01 23:59:47 +0000  copying file ./embedded.mobileprovision ... 
-2026-03-01 23:59:47 +0000  16348 bytes for ./embedded.mobileprovision
-2026-03-01 23:59:47 +0000  copying file ./Info.plist ... 
-2026-03-01 23:59:47 +0000  1463 bytes for ./Info.plist
-2026-03-01 23:59:47 +0000  copying file ./PkgInfo ... 
-2026-03-01 23:59:47 +0000  8 bytes for ./PkgInfo
-2026-03-01 23:59:47 +0000 [MT] /usr/bin/ditto exited with 0
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
-2026-03-01 23:59:47 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
-2026-03-01 23:59:47 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionSymbolsStep
-2026-03-01 23:59:47 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionAppThinningStep
-2026-03-01 23:59:47 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionArchThinningStep
-2026-03-01 23:59:47 +0000 [MT] Archs to thin for item /Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app are []
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionODRStep
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
-2026-03-01 23:59:47 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
-2026-03-01 23:59:47 +0000 [MT] Processing step: IDEDistributionCodesignStep
-2026-03-01 23:59:47 +0000 [MT] Entitlements for <IDEDistributionItem: 0x839d1d3e0; bundleID='iediot.Tasks', path='<DVTFilePath:0x839c6ba80:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x839d1d380; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x837eb4480; name='Apple Development: eduardnicolae092@gmail.com (Y49ZS9K5UL)', hash='48AA75874FD565B37BA7361ED1E332A14BF57CFD', serialNumber='7982CE3890DFE704C198DF0104287026', certificateKinds='(
+	<IDEDistributionProcessingPipelineContext: 0x99bd14900; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="<IDEProvisioningBasicTeam: 0x99bdec120; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
+	<IDEDistributionProcessingPipelineContext: 0x99bd14600; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="<IDEProvisioningBasicTeam: 0x99bdec120; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
+	<IDEDistributionContext: 0x999ebe300; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="<IDEProvisioningBasicTeam: 0x99bdec120; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
+	<IDEDistributionContext: 0x999ebd400; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="<IDEProvisioningBasicTeam: 0x99bdec120; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
+	<IDEDistributionContext: 0x999ebd180; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="<IDEProvisioningBasicTeam: 0x99bdec120; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
+	<IDEDistributionContext: 0x999ebcf00; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="<IDEProvisioningBasicTeam: 0x99bdec120; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
+	<IDEDistributionContext: 0x999ebcc80; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="<IDEProvisioningBasicTeam: 0x99bdec120; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
+	<IDEDistributionContext: 0x999ebca00; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="<IDEProvisioningBasicTeam: 0x99bdec120; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
+	<IDEDistributionContext: 0x999ebc780; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="<IDEProvisioningBasicTeam: 0x99bdec120; teamID='83DB5W93C4', teamName='Tăbîrcă Nicolae-Eduard'>">
+	<IDEDistributionContext: 0x999ebc500; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="(null)">
+	<IDEDistributionContext: 0x999ebc280; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="(null)">
+	<IDEDistributionContext: 0x999ebc000; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="(null)">
+	<IDEDistributionContext: 0x1030d1330; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x99b533f20>", team="(null)">
+	<IDEDistributionContext: 0x1030a25d0; archive = "<IDEArchive: 0x99bc2b480>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x99bd14900>
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2026-03-02 00:02:25 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app' '/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~YmUfR4/Root/Payload/Tasks.app'
+2026-03-02 00:02:25 +0000  >>> Copying /Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app 
+2026-03-02 00:02:25 +0000  copying file ./_CodeSignature/CodeResources ... 
+2026-03-02 00:02:25 +0000  2775 bytes for ./_CodeSignature/CodeResources
+2026-03-02 00:02:25 +0000  copying file ./Tasks ... 
+2026-03-02 00:02:25 +0000  147344 bytes for ./Tasks
+2026-03-02 00:02:25 +0000  copying file ./AppIcon60x60@2x.png ... 
+2026-03-02 00:02:25 +0000  2907 bytes for ./AppIcon60x60@2x.png
+2026-03-02 00:02:25 +0000  copying file ./Assets.car ... 
+2026-03-02 00:02:25 +0000  243448 bytes for ./Assets.car
+2026-03-02 00:02:25 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2026-03-02 00:02:25 +0000  3596 bytes for ./AppIcon76x76@2x~ipad.png
+2026-03-02 00:02:25 +0000  copying file ./embedded.mobileprovision ... 
+2026-03-02 00:02:25 +0000  16348 bytes for ./embedded.mobileprovision
+2026-03-02 00:02:25 +0000  copying file ./Info.plist ... 
+2026-03-02 00:02:25 +0000  1463 bytes for ./Info.plist
+2026-03-02 00:02:25 +0000  copying file ./PkgInfo ... 
+2026-03-02 00:02:25 +0000  8 bytes for ./PkgInfo
+2026-03-02 00:02:25 +0000 [MT] /usr/bin/ditto exited with 0
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2026-03-02 00:02:25 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2026-03-02 00:02:25 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2026-03-02 00:02:25 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2026-03-02 00:02:25 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2026-03-02 00:02:25 +0000 [MT] Archs to thin for item /Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app are []
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionODRStep
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2026-03-02 00:02:25 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-03-02 00:02:25 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2026-03-02 00:02:25 +0000 [MT] Entitlements for <IDEDistributionItem: 0x99bd19380; bundleID='iediot.Tasks', path='<DVTFilePath:0x99bc67a80:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x99bd19320; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x999ec8900; name='Apple Development: eduardnicolae092@gmail.com (Y49ZS9K5UL)', hash='48AA75874FD565B37BA7361ED1E332A14BF57CFD', serialNumber='7982CE3890DFE704C198DF0104287026', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
 ), issueDate='2026-02-28 09:04:22 +0000''>', entitlements='{
     "application-identifier" = "83DB5W93C4.iediot.Tasks";
     "com.apple.developer.team-identifier" = 83DB5W93C4;
     "get-task-allow" = 1;
-}', teamID='83DB5W93C4', identifier='iediot.Tasks', executablePath='<DVTFilePath:0x839d1ccc0:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app/Tasks'>', hardenedRuntime='1'>'>: {
+}', teamID='83DB5W93C4', identifier='iediot.Tasks', executablePath='<DVTFilePath:0x99bd18c60:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app/Tasks'>', hardenedRuntime='1'>'>: {
     "application-identifier" = "83DB5W93C4.iediot.Tasks";
     "com.apple.developer.team-identifier" = 83DB5W93C4;
     "get-task-allow" = 1;
 }
-2026-03-01 23:59:47 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
-2026-03-01 23:59:47 +0000 [MT] Entitlements for <IDEDistributionItem: 0x839d1d3e0; bundleID='iediot.Tasks', path='<DVTFilePath:0x839c6ba80:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x839d1d380; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x837eb43c0; name='Apple Development: eduardnicolae092@gmail.com (Y49ZS9K5UL)', hash='48AA75874FD565B37BA7361ED1E332A14BF57CFD', serialNumber='7982CE3890DFE704C198DF0104287026', certificateKinds='(
+2026-03-02 00:02:25 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-03-02 00:02:25 +0000 [MT] Entitlements for <IDEDistributionItem: 0x99bd19380; bundleID='iediot.Tasks', path='<DVTFilePath:0x99bc67a80:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x99bd19320; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x999ecb780; name='Apple Development: eduardnicolae092@gmail.com (Y49ZS9K5UL)', hash='48AA75874FD565B37BA7361ED1E332A14BF57CFD', serialNumber='7982CE3890DFE704C198DF0104287026', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
 ), issueDate='2026-02-28 09:04:22 +0000''>', entitlements='{
     "application-identifier" = "83DB5W93C4.iediot.Tasks";
     "com.apple.developer.team-identifier" = 83DB5W93C4;
     "get-task-allow" = 1;
-}', teamID='83DB5W93C4', identifier='iediot.Tasks', executablePath='<DVTFilePath:0x839d1ccc0:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app/Tasks'>', hardenedRuntime='1'>'> are: {
+}', teamID='83DB5W93C4', identifier='iediot.Tasks', executablePath='<DVTFilePath:0x99bd18c60:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app/Tasks'>', hardenedRuntime='1'>'> are: {
     "application-identifier" = "83DB5W93C4.iediot.Tasks";
     "com.apple.developer.team-identifier" = 83DB5W93C4;
     "get-task-allow" = 1;
 }
-2026-03-01 23:59:47 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x839d1d3e0; bundleID='iediot.Tasks', path='<DVTFilePath:0x839c6ba80:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x839d1d380; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x837eb43c0; name='Apple Development: eduardnicolae092@gmail.com (Y49ZS9K5UL)', hash='48AA75874FD565B37BA7361ED1E332A14BF57CFD', serialNumber='7982CE3890DFE704C198DF0104287026', certificateKinds='(
+2026-03-02 00:02:25 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x99bd19380; bundleID='iediot.Tasks', path='<DVTFilePath:0x99bc67a80:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x99bd19320; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x999ecb780; name='Apple Development: eduardnicolae092@gmail.com (Y49ZS9K5UL)', hash='48AA75874FD565B37BA7361ED1E332A14BF57CFD', serialNumber='7982CE3890DFE704C198DF0104287026', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
 ), issueDate='2026-02-28 09:04:22 +0000''>', entitlements='{
     "application-identifier" = "83DB5W93C4.iediot.Tasks";
     "com.apple.developer.team-identifier" = 83DB5W93C4;
     "get-task-allow" = 1;
-}', teamID='83DB5W93C4', identifier='iediot.Tasks', executablePath='<DVTFilePath:0x839d1ccc0:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app/Tasks'>', hardenedRuntime='1'>'> to: /var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~7wGh6k/entitlements~~~ue6Dfo
-2026-03-01 23:59:47 +0000 [MT] invoking codesign: <NSConcreteTask: 0x837f3f5c0; launchPath='/usr/bin/codesign', arguments='(
+}', teamID='83DB5W93C4', identifier='iediot.Tasks', executablePath='<DVTFilePath:0x99bd18c60:'/Users/iediot/XCode/Tasks/build/Tasks.xcarchive/Products/Applications/Tasks.app/Tasks'>', hardenedRuntime='1'>'> to: /var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~YmUfR4/entitlements~~~c5ZtoP
+2026-03-02 00:02:25 +0000 [MT] invoking codesign: <NSConcreteTask: 0x999fb1130; launchPath='/usr/bin/codesign', arguments='(
     "-f",
     "-s",
     48AA75874FD565B37BA7361ED1E332A14BF57CFD,
     "--entitlements",
-    "/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~7wGh6k/entitlements~~~ue6Dfo",
+    "/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~YmUfR4/entitlements~~~c5ZtoP",
     "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
     "--generate-entitlement-der",
     "--strip-disallowed-xattrs",
     "-vvv",
-    "/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~7wGh6k/Root/Payload/Tasks.app"
+    "/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~YmUfR4/Root/Payload/Tasks.app"
 )'>
-2026-03-01 23:59:57 +0000 [MT] codesign output: /var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~7wGh6k/Root/Payload/Tasks.app: replacing existing signature
-/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~7wGh6k/Root/Payload/Tasks.app: signed app bundle with Mach-O thin (arm64) [iediot.Tasks]
-2026-03-01 23:59:57 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
-2026-03-01 23:59:57 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
-2026-03-01 23:59:57 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
-2026-03-01 23:59:57 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~7wGh6k/Root' '/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~7wGh6k/Packages/Tasks.ipa'
-2026-03-01 23:59:57 +0000  >>> Copying /var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~7wGh6k/Root 
-2026-03-01 23:59:57 +0000  copying file ./Payload/Tasks.app/_CodeSignature/CodeResources ... 
-2026-03-01 23:59:57 +0000  2775 bytes for ./Payload/Tasks.app/_CodeSignature/CodeResources
-2026-03-01 23:59:57 +0000  copying file ./Payload/Tasks.app/Tasks ... 
-2026-03-01 23:59:57 +0000  147344 bytes for ./Payload/Tasks.app/Tasks
-2026-03-01 23:59:57 +0000  copying file ./Payload/Tasks.app/AppIcon60x60@2x.png ... 
-2026-03-01 23:59:57 +0000  2907 bytes for ./Payload/Tasks.app/AppIcon60x60@2x.png
-2026-03-01 23:59:57 +0000  copying file ./Payload/Tasks.app/Assets.car ... 
-2026-03-01 23:59:57 +0000  243448 bytes for ./Payload/Tasks.app/Assets.car
-2026-03-01 23:59:57 +0000  copying file ./Payload/Tasks.app/AppIcon76x76@2x~ipad.png ... 
-2026-03-01 23:59:57 +0000  3596 bytes for ./Payload/Tasks.app/AppIcon76x76@2x~ipad.png
-2026-03-01 23:59:57 +0000  copying file ./Payload/Tasks.app/embedded.mobileprovision ... 
-2026-03-01 23:59:57 +0000  16348 bytes for ./Payload/Tasks.app/embedded.mobileprovision
-2026-03-01 23:59:57 +0000  copying file ./Payload/Tasks.app/Info.plist ... 
-2026-03-01 23:59:57 +0000  1463 bytes for ./Payload/Tasks.app/Info.plist
-2026-03-01 23:59:57 +0000  copying file ./Payload/Tasks.app/PkgInfo ... 
-2026-03-01 23:59:57 +0000  8 bytes for ./Payload/Tasks.app/PkgInfo
-2026-03-01 23:59:57 +0000 [MT] /usr/bin/ditto exited with 0
-2026-03-01 23:59:57 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
-2026-03-01 23:59:57 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
-2026-03-01 23:59:57 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
-2026-03-01 23:59:57 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x839f40540:'/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~7wGh6k/Root/Payload/Tasks.app'>
-2026-03-01 23:59:57 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2026-03-02 00:02:30 +0000 [MT] codesign output: /var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~YmUfR4/Root/Payload/Tasks.app: replacing existing signature
+/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~YmUfR4/Root/Payload/Tasks.app: signed app bundle with Mach-O thin (arm64) [iediot.Tasks]
+2026-03-02 00:02:30 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2026-03-02 00:02:30 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-03-02 00:02:30 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2026-03-02 00:02:30 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~YmUfR4/Root' '/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~YmUfR4/Packages/Tasks.ipa'
+2026-03-02 00:02:30 +0000  >>> Copying /var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~YmUfR4/Root 
+2026-03-02 00:02:30 +0000  copying file ./Payload/Tasks.app/_CodeSignature/CodeResources ... 
+2026-03-02 00:02:30 +0000  2775 bytes for ./Payload/Tasks.app/_CodeSignature/CodeResources
+2026-03-02 00:02:30 +0000  copying file ./Payload/Tasks.app/Tasks ... 
+2026-03-02 00:02:30 +0000  147344 bytes for ./Payload/Tasks.app/Tasks
+2026-03-02 00:02:30 +0000  copying file ./Payload/Tasks.app/AppIcon60x60@2x.png ... 
+2026-03-02 00:02:30 +0000  2907 bytes for ./Payload/Tasks.app/AppIcon60x60@2x.png
+2026-03-02 00:02:30 +0000  copying file ./Payload/Tasks.app/Assets.car ... 
+2026-03-02 00:02:30 +0000  243448 bytes for ./Payload/Tasks.app/Assets.car
+2026-03-02 00:02:30 +0000  copying file ./Payload/Tasks.app/AppIcon76x76@2x~ipad.png ... 
+2026-03-02 00:02:30 +0000  3596 bytes for ./Payload/Tasks.app/AppIcon76x76@2x~ipad.png
+2026-03-02 00:02:30 +0000  copying file ./Payload/Tasks.app/embedded.mobileprovision ... 
+2026-03-02 00:02:30 +0000  16348 bytes for ./Payload/Tasks.app/embedded.mobileprovision
+2026-03-02 00:02:30 +0000  copying file ./Payload/Tasks.app/Info.plist ... 
+2026-03-02 00:02:30 +0000  1463 bytes for ./Payload/Tasks.app/Info.plist
+2026-03-02 00:02:30 +0000  copying file ./Payload/Tasks.app/PkgInfo ... 
+2026-03-02 00:02:30 +0000  8 bytes for ./Payload/Tasks.app/PkgInfo
+2026-03-02 00:02:30 +0000 [MT] /usr/bin/ditto exited with 0
+2026-03-02 00:02:30 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2026-03-02 00:02:30 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-03-02 00:02:30 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-03-02 00:02:30 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x99b2b8180:'/var/folders/0p/z67039js3y58lqmyr078vg6r0000gn/T/XcodeDistPipeline.~~~YmUfR4/Root/Payload/Tasks.app'>
+2026-03-02 00:02:30 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
